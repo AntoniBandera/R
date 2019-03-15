@@ -1,6 +1,6 @@
 # Robot
-
-## Goal
+![alt text](https://github.com/AntoniBandera/R/r.png)
+# Goal
 
 The goal of this project is to create a traveling robot that will:
 - driving the front / back
@@ -38,5 +38,5 @@ The goal of this project is to create a traveling robot that will:
 |            | AOUT2      |       |                                   |         | DC1   |         
 |            | BOUT1      |       |                                   |         | DC2   |         
 |            | BOUT2      |       |                                   |         | DC2   |        
-| *+5V*      |*+3.3V, +6V*|*+5V*  |*+3.3V, +5V*                       |* +3.3V* |*+6V*  |
+| *+5V*      |*+3.3V, +6V*|*+5V*  |*+3.3V, +5V*                       |*+3.3V*  |*+6V*  |
 
