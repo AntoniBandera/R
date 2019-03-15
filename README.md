@@ -8,6 +8,7 @@ The goal of this project is to create a traveling robot that will:
 - stopped before the "safe" distance
 - rotated in place in a clockwise and counterclockwise direction
 - be looking for a new direction
+
 ![alt text](https://github.com/AntoniBandera/R/blob/master/r.png)
 
 ## Bill of material
