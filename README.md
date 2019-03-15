@@ -1,7 +1,6 @@
 # Robot
-![alt text](https://github.com/AntoniBandera/R/blob/master/r.png)
-# Goal
 
+## Goal
 The goal of this project is to create a traveling robot that will:
 - driving the front / back
 - turned left / right
@@ -9,6 +8,7 @@ The goal of this project is to create a traveling robot that will:
 - stopped before the "safe" distance
 - rotated in place in a clockwise and counterclockwise direction
 - be looking for a new direction
+![alt text](https://github.com/AntoniBandera/R/blob/master/r.png)
 
 ## Bill of material
 - Texas Instruments Tiva C Series EK-TM4C123GXL - Launchpad evaluation board ([https://botland.com.pl/pl/texas-instruments/3684-texas-instruments-tiva-c-series-ek-tm4c123gxl-launchpad-evaluation-board.html](https://botland.com.pl/pl/texas-instruments/3684-texas-instruments-tiva-c-series-ek-tm4c123gxl-launchpad-evaluation-board.html))
@@ -20,7 +20,7 @@ The goal of this project is to create a traveling robot that will:
 - ESP8266 module WiFi Witty ([https://botland.com.pl/pl/produkty-wycofane/7446-modul-wifi-esp8266-witty-mini-nodemcu.html](https://botland.com.pl/pl/produkty-wycofane/7446-modul-wifi-esp8266-witty-mini-nodemcu.html))
 - Some jumper wires
 
-# Connection
+## Connection
 | TM4C123GXL | DRV8835    | SV90  | Logical level converter [HC-SR04] | ESP8266 | Motors|
 |:----------:|:----------:|:-----:|:---------------------------------:|:-------:|:-----:|
 | 2          | AxIN2      |       |                                   |         |       |
