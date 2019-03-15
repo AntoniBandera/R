@@ -38,8 +38,5 @@ The goal of this project is to create a traveling robot that will:
 |            | AOUT2      |       |                                   |         | DC1   |         
 |            | BOUT1      |       |                                   |         | DC2   |         
 |            | BOUT2      |       |                                   |         | DC2   |        
-
-| TM4C123GXL | DRV8835    | SV90  | Logical level converter [HC-SR04] | ESP8266 | Motors|
-|:----------:|:----------:|:-----:|:---------------------------------:|:-------:|:-----:|
-| +5V        | +3.3V, +6V | +5V   | +3.3V, +5V                        | +3.3V   | +6V   |
+| *+5V*      |*+3.3V, +6V*|*+5V*  |*+3.3V, +5V*                       |* +3.3V* |*+6V*  |
 
