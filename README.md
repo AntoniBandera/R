@@ -22,11 +22,11 @@ The goal of this project is to create a traveling robot that will:
 - Some jumper wires
 
 ## Connection
-| TM4C123GXL | DRV8835    | SV90  | Logical level converter | [HC-SR04] | ESP8266 | Motors|
+| TM4C123GXL | DRV8835    | SV90  | Logical level converter | HC-SR04 | ESP8266 | Motors|
 |:----------:|:----------:|:-----:|:-----------------------:|:-------:|:-------:|:-----:|
 | 2          | AxIN2      |       |                         |         |         |       |
-| 5          |            |       | [Trig]                  |         |         |       |
-| 6          |            |       | [Echo]                  |         |         |       |
+| 5          |            |       | TxL                     |         |         |       |
+| 6          |            |       | RxL                     |         |         |       |
 | 7          | AxIN1      |       |                         |         |         |       |
 | 8          |            |       |                         |         | 5       |       |
 | 9          |            |       |                         |         | 14      |       |
@@ -35,9 +35,11 @@ The goal of this project is to create a traveling robot that will:
 | 26         |            | Orange|                         |         |         |       |
 | 36         | BxIN2      |       |                         |         |         |       |
 | 37         | BxIN1      |       |                         |         |         |       |
+|            |            |       | RxH                     | Trig    |         |       |         
+|            |            |       | TxH                     | Echo    |         |       |         
 |            | AOUT1      |       |                         |         |         | DC1   |         
 |            | AOUT2      |       |                         |         |         | DC1   |         
 |            | BOUT1      |       |                         |         |         | DC2   |         
 |            | BOUT2      |       |                         |         |         | DC2   |        
-| *+5V*      |*+3.3V, +6V*|*+5V*  |*+3.3V, +5V*             |         |*+3.3V*  |*+6V*  |
+| *+5V*      |*+3.3V, +6V*|*+5V*  |*+3.3V, +5V*             |*+5V*    |*+3.3V*  |*+6V*  |
 
