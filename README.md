@@ -1,5 +1,5 @@
 # Robot
-![alt text](https://github.com/AntoniBandera/R/r.png)
+![alt text](https://github.com/AntoniBandera/R/blob/master/r.png)
 # Goal
 
 The goal of this project is to create a traveling robot that will:
