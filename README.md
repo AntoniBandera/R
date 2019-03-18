@@ -45,7 +45,7 @@ The goal of this project is to create a traveling robot that will:
 
 ## Controle by WiFi
 
-    In the first approach, I control the robot using a wifi network through the ESP8266 module 
+In the first approach, I control the robot using a wifi network through the ESP8266 module 
 and execute a given command (go ahead, turn, stand by 1 second) At first I tried to communicate 
 between ESP8266 and TM4C123GXL via UART protocol, but the transmission did not go as I wanted, 
 there were significant due to the fact that I had to send a few commands (exactly 8), I decided 
@@ -65,12 +65,12 @@ to use direct transmission. To encode 8 commands I needed 3 bits, which correspo
 
 ## Control by the robot
 
-    In this assumption the robot moves alone. He makes decisions in which direction he should go. 
+In this assumption the robot moves alone. He makes decisions in which direction he should go. 
 Data needs to be done. It draws them from the distance sensor located on the front. If the robot 
 approaches the bracket with a mite less than eg 20 cm. It stops, then rotates from the jail, until 
 the distance from the obstacle is greater than 20 cm. Then continue to move forward as long as 
 the distance is more than 20 cm.
-    It gives better results if the distance sensor turns around when the robot moves. You can say 
+It gives better results if the distance sensor turns around when the robot moves. You can say 
 looks around. In this connection, the distance sensor is placed on the servomechanism, which during 
 the movement of the robot spans the distance sensor from side to side and performs several measurements.
 
