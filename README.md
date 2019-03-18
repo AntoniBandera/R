@@ -70,8 +70,10 @@ Data needs to be done. It draws them from the distance sensor located on the fro
 approaches the bracket with a mite less than eg 20 cm. It stops, then rotates from the jail, until 
 the distance from the obstacle is greater than 20 cm. Then continue to move forward as long as 
 the distance is more than 20 cm.
+
 It gives better results if the distance sensor turns around when the robot moves. You can say 
 looks around. In this connection, the distance sensor is placed on the servomechanism, which during 
 the movement of the robot spans the distance sensor from side to side and performs several measurements.
+
 Below is a link to the video of how the robot moves https://youtu.be/uVNhvJOjNo0
 
