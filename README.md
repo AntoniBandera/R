@@ -74,5 +74,5 @@ It gives better results if the distance sensor turns around when the robot moves
 looks around. In this connection, the distance sensor is placed on the servomechanism, which during 
 the movement of the robot spans the distance sensor from side to side and performs several measurements.
 Below is a link to the video of how the robot moves
-[![IMAGE ALT TEXT HERE]((https://github.com/Angan7a/Robot/blob/master/picture.png)](https://youtu.be/uVNhvJOjNo0)
+[![IMAGE ALT TEXT HERE](https://github.com/Angan7a/Robot/blob/master/picture.png)](https://youtu.be/uVNhvJOjNo0)
 
