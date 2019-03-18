@@ -73,4 +73,6 @@ the distance is more than 20 cm.
 It gives better results if the distance sensor turns around when the robot moves. You can say 
 looks around. In this connection, the distance sensor is placed on the servomechanism, which during 
 the movement of the robot spans the distance sensor from side to side and performs several measurements.
+Below is a link to the video of how the robot moves
+![alt text](https://youtu.be/uVNhvJOjNo0)
 
